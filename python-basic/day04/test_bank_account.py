@@ -23,6 +23,6 @@ class TestBancAccount(unittest.TestCase):
     def test_withdraw_entire_balance(self):
         self.account.withdraw(5000)
         self.assertEqual(self.account.balance, 0)
-    
+     
 if __name__ == "__main__":
     unittest.main()
